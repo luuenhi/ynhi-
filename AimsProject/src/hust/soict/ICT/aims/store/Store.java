@@ -39,7 +39,7 @@ public class Store {
 
 	    private void populateStore(){
 
-	        Book book = new Book("Tan gai dai cuong", "Sach Giao Khoa Quan Trong", 0.01f);
+	        Book book = new Book("DVD1's Title", "Book2's Title", 0.01f);
 
 	        DigitalVideoDisc[] disc = new DigitalVideoDisc[5];
 	        disc[0] = new DigitalVideoDisc("Nhac Vang", "DVD", "Duy", 120, 9.99f);

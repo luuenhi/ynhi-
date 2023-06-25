@@ -13,7 +13,7 @@ public class Aims {
 	    private static final Cart cart = new Cart();
 
 	    public static void main( String[] args) {
-	        //Showing menu
+	       
 	        showMenu();
 	    }
 

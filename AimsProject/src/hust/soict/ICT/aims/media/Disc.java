@@ -1,10 +1,12 @@
 package hust.soict.ICT.aims.media;
 
 public class Disc extends Media  {
-	private int length;
+	protected int length;
     private String director;
 
-    public Disc() {
+    public Disc(String title, String category, String director, float cost) {
+    	super(title, category, cost);
+		this.director = director;
     }
 
     public Disc(String title) {
